@@ -27,6 +27,6 @@ class logueo{ // la clase
 }
 
 let autorizacion = new logueo("Yami", 123)
-let autorizacion2 = new logueo("Flavia", 1234)
+let autorizacion2 = new logueo("Flaviaa", 1234)
 console.log(autorizacion.iniciar_sesion());
 console.log(autorizacion2.ver_historia());
