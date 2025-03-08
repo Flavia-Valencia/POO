@@ -64,7 +64,6 @@ class Persona {
         return "Género no definido"; 
       }
     }
-  
     get departamento() {
       return this._departamento;
     }
