@@ -5,7 +5,7 @@ const ProductoSchema = new mongoose.Schema({
   peso: { type: Number, required: true },
   bultos: { type: Number, required: true },
   fecha_entrega: { type: Date, required: true },
-  precio_envio: { type: Number }, // Se calcula según el peso
+  precio_envio: { type: Number },
 });
 
 const EnvioSchema = new mongoose.Schema({
@@ -15,7 +15,6 @@ const EnvioSchema = new mongoose.Schema({
   telefono: String,
   referencia: String,
   observacion: String,
-  producto: ProductoSchema,
 });
 
 module.exports = mongoose.model('Envio', EnvioSchema);
